@@ -1,0 +1,18 @@
+{
+  "name": "@writetome51/get-right-of-decimal",
+  "version": "1.0.0",
+  "description": "a function that takes a number and returns the digits on the right of the decimal.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "numbers",
+    "decimal"
+  ],
+  "author": "Steve Thompson",
+  "license": "FREE",
+  "dependencies": {
+    "basic-data-handling": "latest"
+  }
+}
