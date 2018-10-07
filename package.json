@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-right-of-decimal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a function that takes a number and returns the digits on the right of the decimal.",
   "main": "",
   "scripts": {
