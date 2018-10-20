@@ -1,14 +1,16 @@
 {
   "name": "@writetome51/get-right-of-decimal",
   "version": "1.0.1",
-  "description": "a function that takes a number and returns the digits on the right of the decimal.",
-  "main": "",
+  "description": "Function that takes a number and returns the digits on the right of the decimal.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "numbers",
-    "decimal"
+    "decimal",
+    "get",
+    "fraction"
   ],
   "author": "Steve Thompson",
   "license": "FREE",
