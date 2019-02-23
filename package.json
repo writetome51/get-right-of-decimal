@@ -1,10 +1,11 @@
 {
   "name": "@writetome51/get-right-of-decimal",
-  "version": "1.0.3",
-  "description": "Function that takes a number and returns the digits on the right of the decimal.",
-  "main": "index.js",
+  "version": "1.0.4",
+  "description": "Function takes a float and returns the digits on the right of the decimal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "numbers",
@@ -13,8 +14,12 @@
     "fraction"
   ],
   "author": "Steve Thompson",
-  "license": "FREE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-right-of-decimal/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-right-of-decimal#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.13"
+    "basic-data-handling": "~1.0.15"
   }
 }

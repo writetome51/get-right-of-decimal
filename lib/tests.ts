@@ -1,4 +1,4 @@
-import { getRightOfDecimal } from './getRightOfDecimal';
+import { getRightOfDecimal } from './index';
 
 
 let nonFloats = [0, '', '1', '100', true, false, NaN, Number, Infinity, Number.MAX_VALUE, [], {}, String];
