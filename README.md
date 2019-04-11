@@ -19,5 +19,6 @@ getRightOfDecimal(2.11) --> '11'
 // if using TypeScript:
 import {getRightOfDecimal} from '@writetome51/get-right-of-decimal'; 
 // if using ES5 JavaScript:
-var getRightOfDecimal = require('@writetome51/get-right-of-decimal').getRightOfDecimal;
+var getRightOfDecimal = 
+	require('@writetome51/get-right-of-decimal').getRightOfDecimal;
 ```

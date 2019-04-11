@@ -1,4 +1,4 @@
-import {errorIfNotFloat } from 'basic-data-handling/errorIfNotFloat';
+import { errorIfNotFloat } from 'error-if-not-float';
 
 
 // It's important this returns a string, mainly because it might return a set of
