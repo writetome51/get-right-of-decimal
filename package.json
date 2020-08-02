@@ -2,11 +2,8 @@
   "name": "@writetome51/get-right-of-decimal",
   "version": "2.0.0",
   "description": "Function takes a float and returns the digits on the right of the decimal",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "type": "module",
+  "main": "index.js",
   "keywords": [
     "numbers",
     "decimal",
