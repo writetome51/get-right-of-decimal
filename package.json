@@ -1,11 +1,12 @@
 {
   "name": "@writetome51/get-right-of-decimal",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Function takes a float and returns the digits on the right of the decimal",
   "type": "module",
   "main": "index.js",
   "keywords": [
     "numbers",
+    "digits",
     "decimal",
     "get",
     "fraction",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/writetome51/get-right-of-decimal#readme",
   "dependencies": {
-    "error-if-not-float": "^2.0.0"
+    "@writetome51/to-str": ">=0.0.1",
+    "error-if-not-float": ">=2.0.0"
   }
 }

@@ -1,4 +1,5 @@
 import {errorIfNotFloat} from 'error-if-not-float';
+import {toStr} from '@writetome51/to-str';
 
 
 // It's important this returns a string, mainly because it might return a set of
@@ -7,5 +8,5 @@ import {errorIfNotFloat} from 'error-if-not-float';
 
 export function getRightOfDecimal(num) {
 	errorIfNotFloat(num);
-	return (String(num).split('.')[1]);
+	return (toStr(num).split('.')[1]);
 }
